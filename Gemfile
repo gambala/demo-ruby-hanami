@@ -9,12 +9,13 @@ gem "hanami-validations", "~> 2.1"
 gem "hanami-view", "~> 2.1"
 
 gem "dry-types", "~> 1.0", ">= 1.6.1"
-gem "puma"
+gem "iodine"
 gem "rake"
 
 group :development do
   gem "hanami-webconsole", "~> 2.1"
   gem "guard-puma"
+  gem "puma"
 end
 
 group :development, :test do

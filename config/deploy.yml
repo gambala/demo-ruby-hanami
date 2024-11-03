@@ -18,8 +18,8 @@ registry:
     - KAMAL_REGISTRY_PASSWORD
 env:
   clear:
-    HANAMI_MAX_THREADS: 20
-    HANAMI_WEB_CONCURRENCY: 0
+    HANAMI_MAX_THREADS: 2
+    HANAMI_WEB_CONCURRENCY: 1
 aliases:
   shell: app exec --interactive --reuse "sh"
   logs: app logs -f

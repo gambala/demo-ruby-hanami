@@ -53,4 +53,4 @@ ENV LD_PRELOAD="libjemalloc.so.2" \
 EXPOSE 2300
 
 # Define the command to run the application
-CMD ["bundle", "exec", "hanami", "server"]
+CMD ["bundle", "exec", "iodine", "-p", "2300", "-www", "/app/public"]
